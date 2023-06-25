@@ -1,0 +1,27 @@
+from turtle import *
+
+speed('slowest')
+# pentagon
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+fd(80)
+lt(36)
+
+hideturtle()
+mainloop() 
