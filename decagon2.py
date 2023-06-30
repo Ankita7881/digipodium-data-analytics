@@ -2,11 +2,10 @@ from turtle import *
 speed('fastest')
 pencolor('red')
 pensize(2)
-for i in range(200):
+for i in range(100):
     fd(100 - i)
-    rt(100)
-    circle(46,180)
-    dot(20,'blue')
+    rt(36)
+    circle(45,199)
     
 hideturtle()
 mainloop()

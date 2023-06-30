@@ -1,5 +1,7 @@
 from turtle import *
-
+speed('slowest')
+pencolor('red')
+pensize(2)
 rt(60)
 fd(160)
 bk(160)

@@ -1,5 +1,4 @@
 from turtle import *
-
 speed('slowest')
 # pentagon
 fd(80)
