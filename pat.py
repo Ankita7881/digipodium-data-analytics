@@ -1,13 +1,14 @@
 from turtle import *
 speed('fastest')
 bgcolor('black')
-colors = ['red','green','yellow', 
-          'orange', 'blue','purple']
+colors = ['red','green','yellow',
+        'pink','sky blue','orange',
+         'blue','purple','aqua']
 i=0
 while True:
-    pencolor(colors[i%6])
+    pencolor(colors[i%9])
     fd(10+i)
-    lt(61)
+    lt(190)
     i+=1
 hideturtle()
 mainloop()

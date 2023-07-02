@@ -3,10 +3,10 @@ speed('fastest')
 color = ['red','purple',]
 for i in range(6):
     pencolor('red')
-    fd(100)
+    fd(80)
     for i in range(6):
         pencolor('blue')
-        fd(50)
+        fd(40)
         for i in range (6):
            pencolor('green')
            fillcolor('yellow')

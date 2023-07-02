@@ -7,15 +7,17 @@ for i in range(9):
     lt(360/9)
 
     for i in range(9):
-       pencolor('blue')
-       fd(50)
-       lt(360/9)
+      pencolor('blue')
+      fd(50)
+      lt(360/9)
 
-       for i in range(9):
-         pencolor('blue')
-         fd(30)
-         lt(360/9)
-    
+      for i in range(9):
+       pencolor('red')
+      fd(20)
+      lt(360/9)
+
+
+
 
 
 hideturtle()
