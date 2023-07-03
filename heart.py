@@ -1,0 +1,15 @@
+from turtle import *
+fillcolor('red')
+begin_fill()
+rt(70)
+circle(100,-160)
+lt(100)
+circle(100,-180)
+lt(180)
+fd(235)
+rt(100.5)
+fd(270)
+end_fill()
+
+hideturtle()
+mainloop()
